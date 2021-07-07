@@ -1,0 +1,19 @@
+.ihagi_header_logo{
+    margin: 2rem 0;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.ihagi_header_button{
+    margin-bottom: 2rem;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.ihagi_footer_logo{
+    margin: 1.5rem 0;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.ihagi_footer_button{
+    margin-top: 2rem;
+    font-family: 'Noto Serif KR', serif;
+}
