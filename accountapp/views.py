@@ -33,4 +33,4 @@ class AccountCreateView(CreateView):
     model = User
     form_class = UserCreationForm
     success_url = reverse_lazy('accountapp:hellow_world')
-    tempate_name= 'accountapp/create.html'
+    template_name= 'accountapp/create.html'
