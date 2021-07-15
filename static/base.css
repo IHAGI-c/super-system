@@ -6,6 +6,7 @@
 .ihagi_header_button{
     margin-bottom: 2rem;
     font-family: 'Noto Serif KR', serif;
+    font-size: 0.9rem;
 }
 
 .ihagi_footer_logo{
@@ -16,6 +17,7 @@
 .ihagi_footer_button{
     margin-top: 2rem;
     font-family: 'Noto Serif KR', serif;
+    font-size: 0.9rem;
 }
 
 .mw-500 {
