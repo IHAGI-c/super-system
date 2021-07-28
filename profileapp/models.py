@@ -5,7 +5,8 @@ from django.db import models
 # Create your models here.
 
 class profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
+    user = models.OneToOneField(User, on_delete=models.CASCADE,
+                                related_name='profile')
 
     image = models.ImageField(upload_to='profile/', null=True)
     nickname = models.CharField(max_length=30, unique=True, null=True)
