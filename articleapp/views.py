@@ -17,6 +17,9 @@ class ArticleCreateView(CreateView):
         form.instance.writer = self.request.user
         return super().form_valid(form)
 
+    def get_success_url(self):
+        return reverse('articleapp:detail', kwargs={'pk':self.object.pk})
+
 
 class ArticleDetailView(DetailView):
     model = Article
