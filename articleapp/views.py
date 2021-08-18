@@ -11,6 +11,7 @@ from articleapp.decorators import article_ownership_required
 from articleapp.forms import ArticleCreationForm
 from articleapp.models import Article
 from commentapp.forms import CommentCreationForm
+from projectapp.models import Project
 
 
 @method_decorator(login_required, 'get')
@@ -58,7 +59,7 @@ class ArticleDeleteView(DeleteView, FormMixin):
 
 
 class ArticleListView(ListView):
-    model = Article
+    model = Project
     context_object_name = 'article_list'
     template_name = 'articleapp/list.html'
     paginate_by = 20
