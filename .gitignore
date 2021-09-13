@@ -87,3 +87,7 @@ staticfiles/
 
 gis_2ban_gcp
 gis_2ban_gcp.pub
+
+Dockerfile
+
+nginx.conf
