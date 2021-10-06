@@ -87,5 +87,3 @@ staticfiles/
 
 gis_2ban_gcp
 gis_2ban_gcp.pub
-
-nginx.conf
